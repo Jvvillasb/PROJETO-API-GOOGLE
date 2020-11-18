@@ -28,7 +28,7 @@
             .lblb1{
                  display: inline;
                 border: 0 10px 0 10px;
-                padding: 10px 80px;
+                padding: 10px 100px;
                 margin-left: 20px;
                 font-size: 18px;
             }
@@ -43,11 +43,13 @@
                 
             }
         </style>
-
+        
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
+                    <img class="logo" src="images/logotipo1.png">
 					<nav id="nav">
+                         <a href="indexx.php">Visualizar Mapa</a>
 						<a href="index.php">Início</a>
 						<a href="generic.php">Visualizar Relatórios</a>
 						<a href="demo.php">Contato</a>
@@ -73,7 +75,7 @@
 										</div>
                     
 										<div class="6u 12u$(xsmall)">
-											<input type="text" name="nome" required maxlength="" id="name" value="" placeholder="Nome"/>
+											<input type="text" name="nome" required maxlength="" id="name" value="" placeholder="Nome *" required/>
 										</div>
                                         <div class="6u 12u$(xsmall)">
                                             <div>
@@ -81,22 +83,91 @@
                                             </div>
                                         </div>
 										<div class="12u$">
-											<input type="email" name="email" id="email" value="" placeholder="Email" />
+											<input type="email" name="email" id="email" value="" placeholder="Email *" required/>
 										</div>
 										<!-- Break -->
 										<div class="6u 12u$(xsmall)">
 											<div>     
-                                                <input type="text" name="bairro" id="bairro" value="" placeholder="Bairro"/>
-											</div>
+                                          <select name="bairro" required>
+                                              <option value="0">Bairro *</option>
+                                              <option value="VILA BRITO">VILA BRITO</option>
+                                              <option value="VILA NUNES">VILA NUNES</option>
+                                              <option value="NOVA LORENA">NOVA LORENA</option>
+                                              <option value="JARDIM NOVA LORENA">JARDIM NOVA LORENA</option>
+                                              <option value="PARQUE RESIDENCIAL NOVA LORENA">PARQUE RESIDENCIAL NOVA LORENA</option>
+                                              <option value="CABELINHA">CABELINHA</option>
+                                              <option value="CHÁCARAS LINDA VISTA">CHÁCARAS LINDA VISTA</option>
+                                              <option value="VILA CRISTINA">VILA CRISTINA</option>
+                                              <option value="VILLAGE DAS PALMEIRAS">VILLAGE DAS PALMEIRAS</option>
+                                              <option value="VILA DA FIGUEIRA">VILA DA FIGUEIRA</option>
+                                              <option value="VILA APARECIDA">VILA APARECIDA</option>
+                                              <option value="CENTRO">CENTRO</option>
+                                              <option value="MATADOURO VELHO">MATADOURO VELHO</option>
+                                              <option value="SÃO ROQUE">SÃO ROQUE</option>
+                                              <option value="BAIRRO DO ATERRADO">BAIRRO DO ATERRADO</option>
+                                              <option value="VILA RICA">VILA RICA</option>
+                                              <option value="VILA DIVA">VILA DIVA</option>
+                                              <option value="VILA NEIDE">VILA NEIDE</option>
+                                              <option value="VILA CIDA">VILA CIDA</option>
+                                              <option value="SANTO ANTÔNIO">SANTO ANTÔNIO</option>
+                                              <option value="VILA BUCK">VILA BUCK</option>
+                                              <option value="VILA SÃO BENEDITO">VILA SÃO BENEDITO</option>
+                                              <option value="GRANJA SÃO CRISTOVÃO">GRANJA SÃO CRISTOVÃO</option>
+                                              <option value="CECAP">CECAP</option>
+                                              <option value="VILA IZABEL">VILA IZABEL</option>
+                                              <option value="VILA CELINA">VILA CELINA</option>
+                                              <option value="VILA HEPACARÉ">VILA HEPACARÉ</option>
+                                              <option value="JARDIM PRIMAVERA">JARDIM PRIMAVERA</option>
+                                              <option value="VILA DOS COMERCIÁRIOS II">VILA DOS COMERCIÁRIOS II</option>
+                                              <option value="PORTAL DAS PALMEIRAS">PORTAL DAS PALMEIRAS</option>
+                                              <option value="VILA DOS COMERCIÁRIOS I">VILA DOS COMERCIÁRIOS I</option>
+                                              <option value="CIDADE INDUSTRIAL">CIDADE INDUSTRIAL</option>
+                                              <option value="PARQUE MONDESIR">PARQUE MONDESIR</option>
+                                              <option value="JARDIM AUGUSTA">JARDIM AUGUSTA</option>
+                                              <option value="PARQUE TABATINGA">PARQUE TABATINGA</option>
+                                              <option value="OLARIA">OLARIA</option>
+                                              <option value="CONJUNTO HABITACIOANAL OTTO UDE">CONJUNTO HABITACIOANAL OTTO UDE</option>
+                                              <option value="VILA DOM BOSCO">VILA DOM BOSCO</option>
+                                              <option value="JARDIM MARGARIDA">JARDIM MARGARIDA</option>
+                                              <option value="VILA CELESTE">VILA CELESTE</option>
+                                              <option value="JARDIM IMPERIAL">JARDIM IMPERIAL</option>
+                                              <option value="VILA ZÉLIA">VILA ZÉLIA</option>
+                                              <option value="BAIRRO DA CRUZ">BAIRRO DA CRUZ</option>
+                                              <option value="VILA SANTA MARIA">VILA SANTA MARIA</option>
+                                              <option value="VILA MARIA LOURDES">VILA MARIA LOURDES</option>
+                                              <option value="JARDIM NOVO HORIZONTE">JARDIM NOVO HORIZONTE</option>
+                                              <option value="VILA DO IPE">VILA DO IPE</option>
+                                              <option value="PARQUE RODOVIAS">PARQUE RODOVIAS</option>
+                                              <option value="VILA PASSOS">VILA PASSOS</option>
+                                              <option value="VILA SANTA EDWIGES">VILA SANTA EDWIGES</option>
+                                              <option value="VILA GENY">VILA GENY</option>
+                                              <option value="MADRE MAZZARELLO">MADRE MAZZARELLO</option>
+                                              <option value="VILA SIMÃO">VILA SIMÃO</option>
+                                              <option value="VILA FABIANO">VILA FABIANO</option>
+                                              <option value="SANTA RITA">SANTA RITA</option>
+                                              <option value="VILA ESPERANÇA">VILA ESPERANÇA</option>
+                                              <option value="SANTA LUCRÉCIA">SANTA LUCRÉCIA</option>
+                                              <option value="PEDROSO">PEDROSO</option>
+                                              <option value="CERRO ALTO">CERRO ALTO</option>
+                                              <option value="PINHAL NOVO">PINHAL NOVO</option>
+                                              <option value="SERTÃO VELHO">SERTÃO VELHO</option>
+                                              <option value="PORTO DO MEIRA">PORTO DO MEIRA</option>
+                                              <option value="TABUÃO">TABUÃO</option>
+                                              <option value="COCHO">COCHO</option>
+                                              <option value="POÇO FUNDO">POÇO FUNDO</option>
+                                              <option value="SÃO BENEDITO">SÃO BENEDITO</option>
+                                              <option value="VILLAGE LORENA">VILLAGE LORENA</option>
+                                          </select>
+                                         </div>
 										</div>
                                          <div class="6u 12u$(xsmall)">
                                             <div>
-                                             <label class="lblb1">CEP</label><input class="lbl-date1" name="cep" type="number" step="1000">
+                                             <label class="lblb1">CEP</label><input class="lbl-date1" name="cep" type="number *" min="12600005" max="12614899">
                                             </div>
                                         </div>
                                         <div class="12u$">
 											<div>     
-                                                <input type="text" name="rua" id="rua" value="" placeholder="Rua"/>
+                                                <input type="text" name="rua" id="rua" value="" placeholder="Rua" required/>
 											</div>
 										</div>
                         
@@ -127,20 +198,10 @@
 									</div>
 								</form>
 
-								<hr />
+				
 	
 
 							<!-- Maps -->
-                    <br>
-								<h3 class="midfeed">Mapa Operacional</h3>
-
-								<div class="flex flex-2">
-						  <div class="maps">
-                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41631.60721859605!2d-45.12994113017973!3d-22.73756993259726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc9201d468adf%3A0xc9ce9c4b4546c622!2sLorena%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1584492588718!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                          </div>
-					      </div>
-
-								
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">

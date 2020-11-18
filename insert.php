@@ -11,7 +11,9 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
+					<img class="logo" src="images/logotipo1.png">
 					<nav id="nav">
+                         <a href="indexx.php">Visualizar Mapa</a>
 						<a href="index.php">Início</a>
 						<a href="generic.php">Visualizar Relatórios</a>
 						<a href="demo.php">Contato</a>
@@ -96,19 +98,9 @@
 				</div>
 			</section>
  
-	
 
-							<!-- Maps -->
-                    <br>
-								<h3 class="midfeed">Mapa Operacional</h3>
-
-								<div class="flex flex-2">
-						  <div class="maps">
-                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41631.60721859605!2d-45.12994113017973!3d-22.73756993259726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc9201d468adf%3A0xc9ce9c4b4546c622!2sLorena%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1584492588718!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                          </div>
-					      </div>
-
-								
+        <!-- Maps -->
+  					
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">

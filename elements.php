@@ -12,6 +12,7 @@
 			<header id="header">
 				<div class="inner">
 					<nav id="nav">
+                         <a href="indexx.php">Visualizar Mapa</a>
 						<a href="index.php">Início</a>
 						<a href="generic.php">Visualizar Relatórios</a>
 						<a href="demo.php">Contato</a>
@@ -84,18 +85,9 @@
 									</div>
 								</form>
 
-								<hr />
 
 							<!-- Maps -->
-                    <br>
-								<h3 class="midfeed">Mapa Operacional</h3>
-
-								<div class="flex flex-2">
-						  <div class="maps">
-                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29453.834691089585!2d-45.02881384603102!3d-              22.663877998683933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cccac305a271ab%3A0xdba0e8e733c077d3!2sCachoeira%20Paulista%2C%20SP%2C%2012630-000!5e0!3m2!1spt-BR!2sbr!4v1577044393800!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                          </div>
-					      </div>
-
+                    
 								
 		<!-- Footer -->
 			<footer id="footer">

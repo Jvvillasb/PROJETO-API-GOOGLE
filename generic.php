@@ -11,7 +11,9 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
+					<img class="logo" src="images/logotipo1.png">
 					<nav id="nav">
+                         <a href="indexx.php">Visualizar Mapa</a>
 						<a href="index.php">Inicío</a>
                         <a href="insert.php">Denúncia</a>
 						<a href="demo.php">Contatos</a>

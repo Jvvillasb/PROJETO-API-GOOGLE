@@ -10,16 +10,17 @@
     $rua = $_POST ['rua'];
     $priority = $_POST ['priority'];
     $mensagem = $_POST ['mensagem'];
+    $MSG = "Denúcia Enviada com Sucesso ! ";
     
 
     
-    if($denuncia== Furto)
+    if($denuncia=="Furto")
     {
     mysqli_query($conn,"INSERT INTO registrofurto(denuncia,nome,dat,email,bairro,cep,rua,priority,mensagem) VALUES ('$denuncia','$nome','$dat','$email','$bairro','$cep','$rua','$priority','$mensagem' )") or die (mysqli_error($conn));
     }
 
     
-    if($denuncia==Assalto)
+    if($denuncia=="Assalto")
     {
         mysqli_query($conn,"INSERT INTO registroassalto(denuncia,nome,dat,email,bairro,cep,rua,priority,mensagem) VALUES ('$denuncia','$nome','$dat','$email','$bairro','$cep','$rua','$priority','$mensagem' )") or die (mysqli_error($conn));
     }
@@ -48,10 +49,11 @@
 
 
     if(mysqli_insert_id($conn)) {
-        $_SESSION['MSG'] = "USUARIO cadastrado com sucesso";
-        header("Location: index.php");
+        header("Location: obrigado.php");
     } else {
         header ("Location: denuncia1.php");
     }
 
     ?>
+
+ 
